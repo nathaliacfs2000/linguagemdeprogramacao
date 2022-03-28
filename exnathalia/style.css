@@ -1,0 +1,23 @@
+h1{
+font-family: arial;
+font-size: 60pt;
+color: 880808;
+background-color:#B0E0E6;
+padding: 50px;
+}
+
+.destaque{
+color: #1E90FF;
+font-size: 30pt;
+background-color: blue;
+font-family: arial;
+padding: 15px;
+width: 300px;
+}
+
+.pequeno{
+	font-size: 20pt;
+	background-color:black;
+	text-align: left;
+	text-align: right;
+}
