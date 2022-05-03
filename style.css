@@ -1,0 +1,45 @@
+body{
+	font-family:'Arial';
+	background-color: #ffffff;
+	margin: 0;
+}
+
+.designdigital {
+	margin-left: 100px;
+}
+
+.menu {
+	font-size: 15px;
+	color: #a8a8a8;
+	margin-left: 40px;
+}
+
+
+.banner{
+	width: 650px;
+	margin: 0;
+}
+
+.titulo {
+	position: absolute;
+  	font-size: 32px;
+  	margin-left: 28px;
+  	top: 48px; 
+  	text-align: left;
+}
+
+.subtitle {
+	position: absolute;
+  	font-size: 18px;
+  	margin-left: 28px;
+  	top: 85px; 
+  	text-align: left;
+}
+
+.depoimentos {
+	position: absolute;
+  	font-size: 16px;
+  	margin-left: 28px;
+  	top: 178px; 
+  	text-align: left;
+}
