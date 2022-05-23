@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Bootstrap - Alinhamento de textos</title>
+  </head>
+
+  <body>
+
+    <!--No exemplo a seguir, um onclick atributo (com código) é adicionado a um <button> elemento: 
+
+    o código JavaScript altera o conteúdo do elemento com id = "demo".
+
+normalmente vemos atributos de eventos chamando funcões
+
+
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+    <p id="demo"></p>
+
+
+-->
+
+<h2>Eventos JavaScript HTML</h2>
+<p>Clique no botão para mostrar a data</p>
+
+<button onclick="displayDate()">Que data e horas são?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date()
+}
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
